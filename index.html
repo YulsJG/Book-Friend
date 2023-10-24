@@ -1,0 +1,1602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book-Friend</title>
+    <!-- Conexion con Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   
+
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- Conexion con CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="icon" type="image/x-icon" href="images/icono.png">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Truculenta:opsz,wght@12..72,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Sacramento&family=Truculenta:opsz,wght@12..72,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Quicksand:wght@300&family=Sacramento&family=Truculenta:opsz,wght@12..72,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+    <main>
+        <!-- INDICE -->
+        <div class="up">
+            <br>
+            <h1>Book Friend</h1>
+            <ul class="nav">
+                <li class="nav-item">
+                  <img src="./images/fantasy.jpg" class="img-fluid" alt="Imagen de un dragon">
+                  <a class="nav-link " aria-current="page" href="./pages/fantasy.html">Fantasy</a>
+                </li>
+                <li class="nav-item">
+                    <img src="./images/romance.jpg" class="img-fluid" alt="Imagen de un corazon hecho con hojas de libro">
+                  <a class="nav-link" href="./pages/romance.html">Romance</a>
+                </li>
+                <li class="nav-item">
+                    <img src="./images/nol-pol.png" class="img-fluid" alt="Silueta de Sherlock Holmes">
+                    <a class="nav-link" href="./pages/crime-novels.html">Crime Novels</a>
+                </li>
+                <li class="nav-item">
+                    <img src="./images/mystery.jpg" class="img-fluid" alt="Imagen de una mano">
+                    <a class="nav-link" href="./pages/thriller.html">Thriller & Mystery</a>
+                </li>
+                <li class="nav-item">
+                    <img src="./images/terror" class="img-fluid" alt="Imagen de lo sonrisa del payaso de it">
+                  <a class="nav-link aria-disabled" aria-disabled="#terror" href="./pages/horror.html">Horror</a>
+                </li>
+              </ul>
+              <br>
+              <h5>Reseñas, releases y mas...</h5>
+        </div>
+        
+        <br><br>
+        <div class="menu2">
+        <h2>Special Sections</h2>
+        <br>
+        <div class="segundo-menu">
+            <li>
+                <img src="/images/best-seller.gif"  class="best" alt="imagen de best seller ">
+                <br>
+                <a href="#best-seller">Best Sellers</a>
+            </li>
+            <li>
+                <img src="./images/soon.gif" class="best" alt="imagen de un logo de coming soon">
+                <br>
+                <a href="#coming-soon">Coming Soon</a>
+            </li>
+            <li>
+                <img src="./images/releases.gif" class="best" alt="imagen de libros apilados">
+                <br>
+                <a href="#new-realeses">New Realeses</a>
+            </li>
+        </div>
+    </div>
+
+        <br><br>
+        <h3 id="best-seller"> NY Best sellers</h3>
+        <br>
+        <h2> Romance</h2>
+        <br>
+        <section class="carrusel-top">
+            <!-- CARRUSEL  BEST- SELLER -->
+            <div id="carouselExampleCaptions1" class="carousel carousel-dark slide" data-bs-ride="false">
+      
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="card-group">
+                    <div class="card">
+                      <img src="./images/best-1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">Love, Theoretically</h5>
+                        <p>by Ali Hazelwood</p>
+                        <div class="calificacion">
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <img src="./images/best-2.jpg" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">Meet me at the lake </h5>
+                        <p>by Carley Fortune</p>
+                        <div class="calificacion">
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <img src="./images/best-3.jpg" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">Practice makes perfect </h5>
+                        <p>by Sarah Adams</p>
+                        <div class="calificacion">
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                        </div>
+                      </div>
+                    </div>
+      
+                  </div>
+      
+                </div>
+                <div class="carousel-item">
+                  <div class="card-group">
+                    <div class="card">
+                        <img src="./images/best-4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                        <h5 class="card-title">Happy place</h5>
+                        <p>by Emily Henry</p>
+                        <div class="calificacion">
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <img src="./images/best-5.jpg" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                      <h5 class="card-title">Astrid Parker doesn't fall</h5>
+                      <p>by Ashley Herring Blake</p>
+                      <div class="calificacion">
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <img src="./images/best-6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                    <h5 class="card-title">Love on the brain</h5>
+                    <p>by Ali Hazelwood</p>
+                    <div class="calificacion">
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                    </div>
+                  </div>
+                </div>
+                  </div>
+      
+                </div>
+                <div class="carousel-item">
+      
+      
+                  <div class="card-group">
+                    <div class="card">
+                      <img src="./images/best-7.jpg" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                      <h5 class="card-title">Every summer after</h5>
+                      <p>by Carley Fortune</p>
+                      <div class="calificacion">
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <img src="./images/best-8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                    <h5 class="card-title">Book lovers</h5>
+                    <p>by Emily Henry</p>
+                    <div class="calificacion">
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="./images/best-9.jpg" class="card-img-top" alt="...">
+                  <div class="card-body text-center">
+                  <h5 class="card-title">The love hypothesis</h5>
+                  <p>by Ali Hazelwood</p>
+                  <div class="calificacion">
+                    <span class="estrella">&#9733;</span>
+                    <span class="estrella">&#9733;</span>
+                    <span class="estrella">&#9733;</span>
+                    <span class="estrella">&#9733;</span>
+                    <span class="estrella">&#9733;</span>
+                  </div>
+                </div>
+              </div>
+
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions1"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions1"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </section>
+
+          <br>
+          <h2> Dark Romance</h2>
+          <br>
+          <section class="carrusel-top">
+            <!-- CARRUSEL  BEST-SELLER-2 -->
+            <div id="carouselExampleCaptions2" class="carousel carousel-dark slide" data-bs-ride="false">
+      
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="card-group">
+                    <div class="card">
+                      <img src="./images/best2-1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">Haunting Adeline (Cat and MOuse Duet, #1)</h5>
+                        <p>by H.D Carlton</p>
+                        <div class="calificacion">
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <img src="./images/best2-2.jpg" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">Corrupt (Devil's Night, #1)</h5>
+                        <p>by Penelope Douglas</p>
+                        <div class="calificacion">
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <img src="./images/best2-3.jpg" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">Hunting Adeline (Cat and Mouse Duet, #2)</h5>
+                        <p>by H.D Carlton</p>
+                        <div class="calificacion">
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                        </div>
+                      </div>
+                    </div>
+      
+                  </div>
+      
+                </div>
+                <div class="carousel-item">
+                  <div class="card-group">
+                    <div class="card">
+                        <img src="./images/best2-4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                        <h5 class="card-title">Hooked (Never After, #1)</h5>
+                        <p>by Emily Mcintire</p>
+                        <div class="calificacion">
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <img src="./images/best2-5.jpg" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                      <h5 class="card-title">The Ritual (The L.O.R.D.S, #1)</h5>
+                      <p>by Shantel Tessier</p>
+                      <div class="calificacion">
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <img src="./images/best2-6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                    <h5 class="card-title">The Sweetest Oblivion (Made, #1)</h5>
+                    <p>by Danielle Lori</p>
+                    <div class="calificacion">
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                    </div>
+                  </div>
+                </div>
+                  </div>
+      
+                </div>
+                <div class="carousel-item">
+      
+      
+                  <div class="card-group">
+                    <div class="card">
+                      <img src="./images/best2-7.jpg" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                      <h5 class="card-title">There Are No Saints (Sinners Duet, #1)</h5>
+                      <p>by Sophie Lark</p>
+                      <div class="calificacion">
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <img src="./images/best2-8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                    <h5 class="card-title">Still Beating</h5>
+                    <p>by Jennifer Hartmann</p>
+                    <div class="calificacion">
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="./images/best2-9.jpg" class="card-img-top" alt="...">
+                  <div class="card-body text-center">
+                  <h5 class="card-title">Satan's Affair</h5>
+                  <p>by H.D Carlton</p>
+                  <div class="calificacion">
+                    <span class="estrella">&#9733;</span>
+                    <span class="estrella">&#9733;</span>
+                    <span class="estrella">&#9733;</span>
+                    <span class="estrella">&#9733;</span>
+                    <span class="estrella">&#9733;</span>
+                  </div>
+                </div>
+              </div>
+
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions2"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions2"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </section>
+
+          <br>
+          <h2> Fantasy</h2>
+          <br>
+          <section class="carrusel-top">
+            <!-- CARRUSEL  BEST-SELLER-2 -->
+            <div id="carouselExampleCaptions3" class="carousel carousel-dark slide" data-bs-ride="false">
+      
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="card-group">
+                    <div class="card">
+                      <img src="./images/best3-1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">A court of thorns and roses:1</h5>
+                        <p>by Sarah J. Maas</p>
+                        <div class="calificacion">
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <img src="./images/best3-2.jpg" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">Iron Flame</h5>
+                        <p>by Rebecca Yaros</p>
+                        <div class="calificacion">
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <img src="./images/best3-3.jpg" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">Caraval: 1</h5>
+                        <p>by Stephanie Garber</p>
+                        <div class="calificacion">
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                        </div>
+                      </div>
+                    </div>
+      
+                  </div>
+      
+                </div>
+                <div class="carousel-item">
+                  <div class="card-group">
+                    <div class="card">
+                        <img src="./images/best3-4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                        <h5 class="card-title">Fourth Wing: 1</h5>
+                        <p>by Rebecca Yaros</p>
+                        <div class="calificacion">
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <img src="./images/best3-5.jpg" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                      <h5 class="card-title">A curse for true love (Once upon a broken heart Book 3)</h5>
+                      <p>by Stephanie Garber</p>
+                      <div class="calificacion">
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <img src="./images/best3-6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                    <h5 class="card-title">Once upon a broken heart: 1</h5>
+                    <p>by Stephanie Garber</p>
+                    <div class="calificacion">
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                    </div>
+                  </div>
+                </div>
+                  </div>
+      
+                </div>
+                <div class="carousel-item">
+      
+      
+                  <div class="card-group">
+                    <div class="card">
+                      <img src="./images/best3-7.jpg" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                      <h5 class="card-title">The invisble life of Addie Larue</h5>
+                      <p>by V.E Schwab</p>
+                      <div class="calificacion">
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <img src="./images/best3-8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                    <h5 class="card-title">Kingdom of flesh and fire</h5>
+                    <p>by Jenifer L. Armentrout</p>
+                    <div class="calificacion">
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="./images/best3-9.jpg" class="card-img-top" alt="...">
+                  <div class="card-body text-center">
+                  <h5 class="card-title">From blood and ash</h5>
+                  <p>by Jenifer L. Armentrout</p>
+                  <div class="calificacion">
+                    <span class="estrella">&#9733;</span>
+                    <span class="estrella">&#9733;</span>
+                    <span class="estrella">&#9733;</span>
+                    <span class="estrella">&#9733;</span>
+                    <span class="estrella">&#9733;</span>
+                  </div>
+                </div>
+              </div>
+
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions3"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions3"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </section>
+
+          <br>
+          <h2> Thriller & Mystert</h2>
+          <br>
+          <section class="carrusel-top">
+            <!-- CARRUSEL  BEST-SELLER-2 -->
+            <div id="carouselExampleCaptions4" class="carousel carousel-dark slide" data-bs-ride="false">
+      
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="card-group">
+                    <div class="card">
+                      <img src="./images/best4-1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">Stillhouse lake</h5>
+                        <p>by Rachel Caine</p>
+                        <div class="calificacion">
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <img src="./images/best4-2.jpg" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">Behind closed doors</h5>
+                        <p>by B.A Paris</p>
+                        <div class="calificacion">
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <img src="./images/best4-3.jpg" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">In a dark, dark wood</h5>
+                        <p>by Ruth Ware</p>
+                        <div class="calificacion">
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                        </div>
+                      </div>
+                    </div>
+      
+                  </div>
+      
+                </div>
+                <div class="carousel-item">
+                  <div class="card-group">
+                    <div class="card">
+                        <img src="./images/best4-4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                        <h5 class="card-title">The guest list</h5>
+                        <p>by Lucy Foley</p>
+                        <div class="calificacion">
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <img src="./images/best4-5.jpg" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                      <h5 class="card-title">The wife between us</h5>
+                      <p>by Greer Hendricks and Sarah Pekkanen</p>
+                      <div class="calificacion">
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <img src="./images/best4-6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                    <h5 class="card-title">It ends with her</h5>
+                    <p>by Brianna Labuskes</p>
+                    <div class="calificacion">
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                    </div>
+                  </div>
+                </div>
+                  </div>
+      
+                </div>
+                <div class="carousel-item">
+      
+      
+                  <div class="card-group">
+                    <div class="card">
+                      <img src="./images/best4-7.jpg" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                      <h5 class="card-title">An anonymus girl</h5>
+                      <p>by Greer Hendricks and Sarah Pekkanen</p>
+                      <div class="calificacion">
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <img src="./images/best4-8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                    <h5 class="card-title">The cutting season</h5>
+                    <p>by Attica Locke</p>
+                    <div class="calificacion">
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="./images/best4-9.jpg" class="card-img-top" alt="...">
+                  <div class="card-body text-center">
+                  <h5 class="card-title">The silent patient</h5>
+                  <p>by Alex Michaelides</p>
+                  <div class="calificacion">
+                    <span class="estrella">&#9733;</span>
+                    <span class="estrella">&#9733;</span>
+                    <span class="estrella">&#9733;</span>
+                    <span class="estrella">&#9733;</span>
+                    <span class="estrella">&#9733;</span>
+                  </div>
+                </div>
+              </div>
+
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions4"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions4"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </section>
+      
+          <br>
+          <h2> Crime Novels</h2>
+          <br>
+          <section class="carrusel-top">
+            <!-- CARRUSEL  BEST-SELLER-2 -->
+            <div id="carouselExampleCaptions5" class="carousel carousel-dark slide" data-bs-ride="false">
+      
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="card-group">
+                    <div class="card">
+                      <img src="./images/best5-1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">Sing her down</h5>
+                        <p>by Ivy Pochoa</p>
+                        <div class="calificacion">
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <img src="./images/best5-2.jpg" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">All the dangerous things</h5>
+                        <p>by Stacy Willingham</p>
+                        <div class="calificacion">
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <img src="./images/best5-3.jpg" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">A good girl's guide to murder</h5>
+                        <p>by Holly Jackson</p>
+                        <div class="calificacion">
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                        </div>
+                      </div>
+                    </div>
+      
+                  </div>
+      
+                </div>
+                <div class="carousel-item">
+                  <div class="card-group">
+                    <div class="card">
+                        <img src="./images/best5-4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                        <h5 class="card-title">Everybody knows</h5>
+                        <p>by Jordan Harper</p>
+                        <div class="calificacion">
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <img src="./images/best5-5.jpg" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                      <h5 class="card-title">Beware the woman</h5>
+                      <p>by Megan Abbot</p>
+                      <div class="calificacion">
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <img src="./images/best5-6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                    <h5 class="card-title">All the sinners bleed</h5>
+                    <p>by S.A Cosby</p>
+                    <div class="calificacion">
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                    </div>
+                  </div>
+                </div>
+                  </div>
+      
+                </div>
+                <div class="carousel-item">
+      
+      
+                  <div class="card-group">
+                    <div class="card">
+                      <img src="./images/best5-7.jpg" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                      <h5 class="card-title">On the savage side</h5>
+                      <p>by Tiffany McDaniel</p>
+                      <div class="calificacion">
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <img src="./images/best5-8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                    <h5 class="card-title">A killing of innocents</h5>
+                    <p>by Deborah Crombie</p>
+                    <div class="calificacion">
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="./images/best5-9.jpg" class="card-img-top" alt="...">
+                  <div class="card-body text-center">
+                  <h5 class="card-title">Murder at haven's rock</h5>
+                  <p>by Kelly Armstrong</p>
+                  <div class="calificacion">
+                    <span class="estrella">&#9733;</span>
+                    <span class="estrella">&#9733;</span>
+                    <span class="estrella">&#9733;</span>
+                    <span class="estrella">&#9733;</span>
+                    <span class="estrella">&#9733;</span>
+                  </div>
+                </div>
+              </div>
+
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions5"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions5"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </section>
+      
+          <br>
+          <h2>Horror</h2>
+          <br>
+          <section class="carrusel-top">
+            <!-- CARRUSEL  BEST-SELLER-2 -->
+            <div id="carouselExampleCaptions6" class="carousel carousel-dark slide" data-bs-ride="false">
+      
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="card-group">
+                    <div class="card">
+                      <img src="./images/best6-1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">Out there screaming</h5>
+                        <p>by Jordan Peele</p>
+                        <div class="calificacion">
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <img src="./images/best6-2.jpg" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">Silver Nitrate</h5>
+                        <p>by Silvia Moreno-Garcia</p>
+                        <div class="calificacion">
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <img src="./images/best6-3.jpg" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">The only one left</h5>
+                        <p>by Riley Sager</p>
+                        <div class="calificacion">
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                        </div>
+                      </div>
+                    </div>
+      
+                  </div>
+      
+                </div>
+                <div class="carousel-item">
+                  <div class="card-group">
+                    <div class="card">
+                        <img src="./images/best6-4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                        <h5 class="card-title">Smolder</h5>
+                        <p>by Laurellk Hamilton</p>
+                        <div class="calificacion">
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <img src="./images/best6-5.jpg" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                      <h5 class="card-title">How to sell a haunted house</h5>
+                      <p>by Grady Hendrix</p>
+                      <div class="calificacion">
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <img src="./images/best6-6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                    <h5 class="card-title">The house across the lake</h5>
+                    <p>by Riley Sager</p>
+                    <div class="calificacion">
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                    </div>
+                  </div>
+                </div>
+                  </div>
+      
+                </div>
+                <div class="carousel-item">
+      
+      
+                  <div class="card-group">
+                    <div class="card">
+                      <img src="./images/best6-7.jpg" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                      <h5 class="card-title">Malorie</h5>
+                      <p>by Josh Malerman</p>
+                      <div class="calificacion">
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <img src="./images/best6-8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                    <h5 class="card-title">Fairy Tale</h5>
+                    <p>by Stephen King</p>
+                    <div class="calificacion">
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="./images/best6-9.jpg" class="card-img-top" alt="...">
+                  <div class="card-body text-center">
+                  <h5 class="card-title">The outsider</h5>
+                  <p>by Stephen King</p>
+                  <div class="calificacion">
+                    <span class="estrella">&#9733;</span>
+                    <span class="estrella">&#9733;</span>
+                    <span class="estrella">&#9733;</span>
+                    <span class="estrella">&#9733;</span>
+                    <span class="estrella">&#9733;</span>
+                  </div>
+                </div>
+              </div>
+
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions6"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions6"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </section>
+      
+          <br>
+          <h3 id="coming-soon">The most anticipated</h3>
+          <br>
+          <h2>The biggest coming soon</h2>
+          <br>
+          <section class="carrusel-top">
+            <!-- CARRUSEL  BEST-SELLER-2 -->
+            <div id="carouselExampleCaptions7" class="carousel carousel-dark slide" data-bs-ride="false">
+      
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="card-group">
+                    <div class="card">
+                        <a href="https://www.barnesandnoble.com/w/a-curse-for-true-love-stephanie-garber/1142831119?ean=9781250908452">
+                      <img src="./images/cs-1.webp" class="card-img-top" alt="...">
+                    </a>
+                      <div class="card-body text-center">
+                        <h5 class="card-title">A curse for true love (Exclusive Edition)</h5>
+                        <p>by Stephanie Garber</p>
+                        <p>Date: 24/10</p>
+                        <div class="calificacion">
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                        <a href="https://www.barnesandnoble.com/w/house-of-flame-and-shadow-sarah-j-maas/1143213613?ean=9781635574104">
+                      <img src="./images/cs-2.webp" class="card-img-top" alt="...">
+                    </a>
+                      <div class="card-body text-center">
+                        <h5 class="card-title">House of Flame and Shadow(Crescent City Series #3)</h5>
+                        <p>by Saraah J. Maas</p>
+                        <p>Date: 30/01/24</p>
+                        <div class="calificacion">
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                        <a href="https://www.barnesandnoble.com/w/nightbane-alex-aster/1143280091?ean=9781419773754">
+                      <img src="./images/cs-3.webp" class="card-img-top" alt="...">
+                    </a>                     
+                      <div class="card-body text-center">
+                        <h5 class="card-title">Nightbane</h5>
+                        <p>by Alex Asher</p>
+                        <p>Date: week of November 6</p>
+                        <div class="calificacion">
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                        </div>
+                      </div>
+                    </div>
+      
+                  </div>
+      
+                </div>
+                <div class="carousel-item">
+                  <div class="card-group">
+                    <div class="card">
+                        <a href="https://www.barnesandnoble.com/w/the-graham-effect-elle-kennedy/1143215732?ean=9781728293516">
+                        <img src="./images/cs-4.jpg" class="card-img-top" alt="...">
+                    </a>
+                        <div class="card-body text-center">
+                        <h5 class="card-title">The Graham Effect (Exclusive Edition)</h5>
+                        <p>by Elle Kennedy</p>
+                        <p>Date: week of october 30</p>
+                        <div class="calificacion">
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                        <a href="https://www.barnesandnoble.com/w/dirty-thirty-janet-evanovich/1143030182?ean=9781668003091">
+                      <img src="./images/cs-5.webp" class="card-img-top" alt="...">
+                        </a>
+                      <div class="card-body text-center">
+                      <h5 class="card-title">Dirty Thirty</h5>
+                      <p>by Janet Evanovich</p>
+                      <p>Date: week of october 30</p>
+                      <div class="calificacion">
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <a href="https://www.barnesandnoble.com/w/alex-cross-must-die-james-patterson/1143630961?ean=9780316402484">
+                    <img src="./images/cs-6.webp" class="card-img-top" alt="...">
+                    </a>
+                    <div class="card-body text-center">
+                    <h5 class="card-title">Alex Cross must die: A Thriller</h5>
+                    <p>by James Paterson</p>
+                    <p>Date: week of november 20</p>
+                    <div class="calificacion">
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                    </div>
+                  </div>
+                </div>
+                  </div>
+      
+                </div>
+                <div class="carousel-item">
+      
+      
+                  <div class="card-group">
+                    <div class="card">
+                        <a href="https://www.barnesandnoble.com/w/the-cruel-prince-holly-black/1143031721?ean=9780316461252">
+                      <img src="./images/cs-7.webp" class="card-img-top" alt="...">
+                      </a>
+                      <div class="card-body text-center">
+                      <h5 class="card-title">The Cruel Prince: Collector's Edition</h5>
+                      <p>by Holly Black</p>
+                      <p>Date: 24/10</p>
+                      <div class="calificacion">
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <a href="https://www.barnesandnoble.com/w/heartstopper-volume-5-alice-oseman/1144168541?ean=9781338807486">
+                    <img src="./images/cs-8.webp" class="card-img-top" alt="...">
+                    </a>
+                    <div class="card-body text-center">
+                    <h5 class="card-title">Hearstooper, Volume 5</h5>
+                    <p>by Alice Oseman</p>
+                    <p>Date: 7/12</p>
+                    <div class="calificacion">
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                    <a href="https://www.barnesandnoble.com/w/king-of-greed-ana-huang/1143280084?ean=9781464216671">
+                  <img src="./images/cs-9.webp" class="card-img-top" alt="...">
+                </a>
+                  <div class="card-body text-center">
+                  <h5 class="card-title">King of Greed</h5>
+                  <p>by Ana Huang</p>
+                  <p>Date: 24/10</p>
+                  <div class="calificacion">
+                    <span class="estrella">&#9733;</span>
+                    <span class="estrella">&#9733;</span>
+                    <span class="estrella">&#9733;</span>
+                    <span class="estrella">&#9733;</span>
+                    <span class="estrella">&#9733;</span>
+                  </div>
+                </div>
+              </div>
+
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions7"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions7"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </section>
+     
+
+          <br>
+          <h3 id="new-realeses">New Realeses</h3>
+          <br>
+          <h2>The Newest</h2>
+          <br>
+          <section class="carrusel-top">
+            <!-- CARRUSEL  BEST-SELLER-2 -->
+            <div id="carouselExampleCaptions8" class="carousel carousel-dark slide" data-bs-ride="false">
+      
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="card-group">
+                    <div class="card">
+                        <a href="https://www.barnesandnoble.com/w/the-chalice-of-the-gods-rick-riordan/1142532993?ean=9781368099370">
+                      <img src="./images/new-1.webp" class="card-img-top" alt="...">
+                    </a>
+                      <div class="card-body text-center">
+                        <h5 class="card-title">The Chalice of the Gods (Exclusive Edition) (Percy Jackson and the Olympians)</h5>
+                        <p>by Rick Riordan</p>
+                        <div class="calificacion">
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                        <a href="https://www.barnesandnoble.com/w/secrets-never-die-vincent-ralph/1142827050?ean=9781250882158">
+                      <img src="./images/new-2.webp" class="card-img-top" alt="...">
+                    </a>
+                      <div class="card-body text-center">
+                        <h5 class="card-title">Secrests Never Die</h5>
+                        <p>by Vicent Ralph</p>
+                        <div class="calificacion">
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                        <a href="https://www.barnesandnoble.com/w/flawless-elsie-silver/1142873741?ean=9781728297002">
+                      <img src="./images/new-3.webp" class="card-img-top" alt="...">
+                    </a>                     
+                      <div class="card-body text-center">
+                        <h5 class="card-title">Flawless</h5>
+                        <p>by Elsie River</p>
+                        <div class="calificacion">
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                        </div>
+                      </div>
+                    </div>
+      
+                  </div>
+      
+                </div>
+                <div class="carousel-item">
+                  <div class="card-group">
+                    <div class="card">
+                        <a href="https://www.barnesandnoble.com/w/holly-stephen-king/1142967024?ean=9781668016138">
+                        <img src="./images/new-4.webp" class="card-img-top" alt="...">
+                    </a>
+                        <div class="card-body text-center">
+                        <h5 class="card-title">Holly</h5>
+                        <p>by Stephen King</p>
+                        <div class="calificacion">
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                          <span class="estrella">&#9733;</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                        <a href="https://www.barnesandnoble.com/w/code-red-vince-flynn/1143498675?ean=9781982165024">
+                      <img src="./images/new-5.webp" class="card-img-top" alt="...">
+                        </a>
+                      <div class="card-body text-center">
+                      <h5 class="card-title">Code Red (Mitch Rapp Series#2)</h5>
+                      <p>by Vince Flynn</p>
+                      <div class="calificacion">
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <a href="https://www.barnesandnoble.com/w/two-twisted-crowns-rachel-gillig/1143031728?ean=9780316312714">
+                    <img src="./images/new-6.webp" class="card-img-top" alt="...">
+                    </a>
+                    <div class="card-body text-center">
+                    <h5 class="card-title">Two Twisted Crowns</h5>
+                    <p>by Rachel Gillig</p>
+                    <div class="calificacion">
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                    </div>
+                  </div>
+                </div>
+                  </div>
+      
+                </div>
+                <div class="carousel-item">
+      
+      
+                  <div class="card-group">
+                    <div class="card">
+                        <a href="https://www.barnesandnoble.com/w/hopeless-elsie-silver/1143909774?ean=9781738844784">
+                      <img src="./images/new-7.webp" class="card-img-top" alt="...">
+                      </a>
+                      <div class="card-body text-center">
+                      <h5 class="card-title">Hopeless (Special Edition)</h5>
+                      <p>by Elsie Silver</p>
+                      <div class="calificacion">
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                        <span class="estrella">&#9733;</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <a href="https://www.barnesandnoble.com/w/the-girls-left-behind-emily-gunnis/1143036284?ean=9781472272102">
+                    <img src="./images/new-8.webp" class="card-img-top" alt="...">
+                    </a>
+                    <div class="card-body text-center">
+                    <h5 class="card-title">The Girls left behind</h5>
+                    <p>by Emily Gunnis</p>
+                    <div class="calificacion">
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                      <span class="estrella">&#9733;</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                    <a href="https://www.barnesandnoble.com/w/12-months-to-live-james-patterson/1143501565?ean=9780316405799">
+                  <img src="./images/new-9.webp" class="card-img-top" alt="...">
+                </a>
+                  <div class="card-body text-center">
+                  <h5 class="card-title">12 Months to Live</h5>
+                  <p>by  James Patterson, Mike Lupica</p>
+                  <div class="calificacion">
+                    <span class="estrella">&#9733;</span>
+                    <span class="estrella">&#9733;</span>
+                    <span class="estrella">&#9733;</span>
+                    <span class="estrella">&#9733;</span>
+                    <span class="estrella">&#9733;</span>
+                  </div>
+                </div>
+              </div>
+
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions8"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions8"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </section>
+     
+
+    </main>
+
+    <footer class="fot-inicio">
+        <br>
+        <!--<form>
+             
+            <div class="sugerencia">
+            <p>Cajita para sugerir una reseña</p>
+            
+            <label for="reseña-sugerida">
+                
+                <input type="text">
+                <button>Enviar</button>
+            </label>
+        </div>
+
+        <div class="parte1">
+            <p>¿Que te parecieron nuestras reseñas?</p>
+            <label for="reseñas-excelente"> 
+                
+                <input type="radio" name="calificacion"> Excelentes
+            </label>
+            <br> 
+            <label for="reseñas-medio">
+                <input type="radio" name="calificacion"> Regulares
+            </label>
+            <br>
+            <label for="reseñas-malo">
+                <input type="radio" name="calificacion"> Malas
+            </label>
+            <br>
+        </div>
+          
+        <div class="parte2">
+            <p>¿Qué tipo de contenido te gustaría ver más en nuestra página?</p>
+            <label for="libros-populares">
+                <input type="checkbox" name="mas-contenido"> Reseñas de libros populares
+            </label>
+            <br>
+            <label for="libros-menos-conocidos">
+                <input type="checkbox" name="mas-contenido"> Reseñas de libros menos conocidos
+            </label>
+            <br>
+            <label for="entrevistas">
+                <input type="checkbox" name="mas-contenido"> Entrevistas con autores
+            </label>
+            <br>
+            <label for="consejos">
+                <input type="checkbox" name="mas-contenido"> Articulos sobre consejos de lectura
+            </label>
+            <br>
+            <label for="otro">
+                <input type="text" name="mas-contenido"> Otra (especifica)
+            </label>
+        </div>
+
+        </form>-->
+
+        <section id="contacto" class="contacto seccion-oscura">
+            <div class="container">
+              <div class="container text-center rectangulo d-flex justify-content-evenly">
+                <div class="row">
+                  <div class="col-12 col-md-4 seccion-titulo">
+                    ¡Hola!
+                    <br>
+                    ¡Contactanos!
+                  </div>
+                  <div class="col-12 col-md-4 descripcion">
+                    Si deseas darnos algun libro para reseñar o tienes ideas para la página hablanos al correo
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <a href="mail:yuliana.juarezg89@gmail.com">
+                      <button type="button">  
+                        Contacto
+                        <i class="bi bi-envelope-check-fill"></i>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+            <div class="derechos-de-autor">Creado por Yuliana Juarez (2023) &#169;</div>
+    </footer>
+
+    
+    
+</body>
+</html>
