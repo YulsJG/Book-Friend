@@ -139,7 +139,8 @@ a{
     justify-content: center;
     margin-left:  -5%;
 }
-.menu2{
+
+/*.menu2{
     border: #9F9189 2px solid;
     border-radius: 50px;
     text-align: center;
@@ -148,7 +149,7 @@ a{
     margin-right: 140px;
     margin-bottom: 20px;
     box-shadow: 0px 1px 4px 1px #9F9189;
-}
+}*/
 
 .segundo-menu:hover{
     text-decoration-line: underline;
